@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* CSS VARIABLES */
+:root {
+    /* Spacing */
+    --padding-standard: 20px;
+}
+
+/* CSS RESET - Ensures Consistency */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the content is centered vertically */
+    margin: 0;
+    padding: var(--padding-standard);
+}
+
+/* MAIN CONTAINER - Holds All Content */
+.container {
+    max-width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: var(--padding-standard);
+    text-align: center;
+}
+
+/* QR CODE IMAGE */
+.container img {
+    width: 100%; /* Ensures responsiveness */
+    border-radius: 10px;
+}
+
+/* TEXT STYLES */
+.container h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.container p {
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    margin: 0 auto 20px;
+    max-width: 90%;
+}
+
+/* ATTRIBUTION SECTION */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE DESIGN - Large Screens */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 320px; /* Keeps it compact and well-centered */
+    }
+}

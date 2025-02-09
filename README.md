@@ -24,8 +24,8 @@ The challenge was to build out the QR code component and get it looking as close
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/amikoelvis/qr-code-component-main)
+- Live Site URL: (https://qr-code-component-main-six-virid.vercel.app/)
 
 ## My process
 1. Initialized my project as a public repository on. Making it easier to share my code with the community if I need help.
